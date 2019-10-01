@@ -22,4 +22,5 @@ print("Now I will count the eggs", 7)
 print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 # 3 plus 2 equals 5 and 5 minus 7 equals -2. -2 is not greater than 5 so python shows this as false.
 print(3 + 2 < 5 - 7)
-print(75.0 - 15.0 / 08.0 > 04.0 + 1/8 - 07.0)
+# 75 minus 15 equals 60. 60 divided by 8 equals 7.5. 4 plus 0.125 minus 7 equals -2.875. 7n5 is greater than -2.875
+print(75.0 - 15.0 / 8.0 > 4.0 + 1/8 - 7.0)
