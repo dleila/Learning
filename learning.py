@@ -19,3 +19,4 @@ print("Now I will count the eggs", 7)
 print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 # 3 plus 2 equals 5 and 5 minus 7 equals -2. -2 is not greater than 5 so python shows this as false.
 print(3 + 2 < 5 - 7)
+print(75 - 15 / 8 % 4 + 1/8 - 7)
