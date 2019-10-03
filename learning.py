@@ -26,18 +26,32 @@ print(3 + 2 < 5 - 7)
 print(75.0 - 15.0 / 8.0 > 4.0 + 1/8 - 7.0)
 
 # variables and some  of their powers
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 90
+cars = 80
+SpaceInACar = 4.0
+drivers = 45
+passengers = 115
 cars_not_driven = cars - drivers
 cars_driven = drivers
-carpool_capacity = space_in_a_car * cars_driven
+carpool_capacity = SpaceInACar * cars_driven
 average_passengers_per_car = passengers / cars_driven
-
 print("There are", cars, "cars available.")
 print("There are only", drivers, "drivers available today.")
 print("There will be", cars_not_driven, "empty cars today.")
 print("We can transport", carpool_capacity, "people today.")
 print("We have", passengers, "to carpool today.")
 print("We need to put approximately", average_passengers_per_car, "people in each car.")
+
+vanilla_sold = 20
+chocolate_sold = 15
+strawberry_sold = 10
+carmel_sold = 20
+ice_cream_sold = vanilla_sold + chocolate_sold + strawberry_sold + carmel_sold
+price_per_ice_cream = 2
+total_made = ice_cream_sold * price_per_ice_cream
+print("There were", vanilla_sold, "vanilla flavored ice creams sold today.")
+print("There were", chocolate_sold, "chocolate flavored ice creams sold today.")
+print("There were", strawberry_sold, "strawberry flavored ice creams sold today.")
+print("There were", carmel_sold, "carmel flavored ice creams sold today.")
+print("We sold a total of", ice_cream_sold, "ice creams today.")
+print("It costs", price_per_ice_cream, "dollars for one ice cream.")
+print("We made", total_made, "dollars today.")
