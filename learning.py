@@ -55,3 +55,15 @@ print("There were", carmel_sold, "carmel flavored ice creams sold today.")
 print("We sold a total of", ice_cream_sold, "ice creams today.")
 print("It costs", price_per_ice_cream, "dollars for one ice cream.")
 print("We made", total_made, "dollars today.")
+
+# More variables and playing with output
+myName = "Dahbi"
+myAge = 14
+myHeight = 65  # inches
+myEyes = "Brown"
+myHair = "Brown"
+
+print("Let's talk about %s." % myName)
+print("She's %d inches tall." % myHeight)
+print("She's got %s eyes and %s hair." % (myEyes, myHair))
+print("If I add %d and %d, I get %d." % (myAge, myHeight, myAge+myHeight))
