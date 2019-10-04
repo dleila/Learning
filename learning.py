@@ -67,3 +67,11 @@ print("Let's talk about %s." % myName)
 print("She's %d inches tall." % myHeight)
 print("She's got %s eyes and %s hair." % (myEyes, myHair))
 print("If I add %d and %d, I get %d." % (myAge, myHeight, myAge+myHeight))
+
+moneyPerMonth = 10000
+savings = 2000.5
+necessities = 6023.64
+fun = 976.36
+emergency = 99.5
+
+print("He spends %f and %f per month which is %f in total." % (necessities, fun, necessities+fun))
