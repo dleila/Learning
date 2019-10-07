@@ -69,9 +69,11 @@ print("She's got %s eyes and %s hair." % (myEyes, myHair))
 print("If I add %d and %d, I get %d." % (myAge, myHeight, myAge+myHeight))
 
 moneyPerMonth = 10000
-savings = 2000.5
+savings = 1800.5
 necessities = 6023.64
 fun = 976.36
-emergency = 99.5
+emergency = 999.5
 
-print("He spends %f and %f per month which is %f in total." % (necessities, fun, necessities+fun))
+print("He spends %f on necessities and %f on other fun things per month which is %f in total." % (necessities, fun, necessities+fun))
+print("He puts %f in a savings account and %f into an emergency account." % (savings, emergency))
+print("He makes a total of %d per month." % (moneyPerMonth))
